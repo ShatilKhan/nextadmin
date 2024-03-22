@@ -11,7 +11,6 @@ import {
     MdPeople,
     MdOutlineSettings,
     MdHelpCenter,
-    FaNewspaper,
     MdLogout,
   } from "react-icons/md";
 
@@ -90,7 +89,7 @@ const Sidebar = () => {
             </div>
           </div>
           <ul className={styles.list}>
-            {menuItems.map(cat =>(
+            {menuItems.map((cat) =>(
               <li key={cat.title}>
               <span className={styles.cat}>{cat.title}</span>
               {cat.list.map((item) => (
@@ -99,6 +98,10 @@ const Sidebar = () => {
               </li>
             ))}
           </ul>
+          <button className={styles.logout}>
+            <MdLogout/>
+            Logout
+          </button>
         </div>
     )
 }

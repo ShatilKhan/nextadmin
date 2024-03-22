@@ -3,9 +3,12 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    color: var(--bgDark);
 }
 
-.container:hover{
+.container:hover, .active{
     color: #00A950;
     background-color:azure;
 }

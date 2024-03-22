@@ -1,8 +1,10 @@
 :root{
     --bg: #A3AED0;
     --bg2: #E5E5E5;
+    --bgDark: rgb(80, 78, 78);
     --text:black;
     --text2:rgb(71, 70, 70);
+
 }
 
 *{
